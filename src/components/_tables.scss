@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  margin-bottom: $margin-table;
+  width: 100%;
+}
+
+td, th {
+  padding: $padding-table;
+}
+
+table, th, td {
+  border: 1px solid $border;
+}
+
+tbody {
+  tr:nth-child(2n) {
+    background-color: $table-color;
+  }
+}

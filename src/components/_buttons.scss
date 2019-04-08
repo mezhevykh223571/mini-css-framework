@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  color: $links;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $links-hover;
+    @include fields-hover;
+  }
+}

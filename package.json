@@ -1,0 +1,37 @@
+{
+  "name": "@mezhevykh/reset-styles",
+  "version": "1.0.0",
+  "style": "dist/main.css",
+  "main": "dist/main.css",
+  "author": "Evgeny Mezhevykh",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "babel": "^6.23.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "scripts": {
+    "build": "gulp",
+    "build:prod": "gulp --live",
+    "watch": "gulp watch",
+    "clean": "gulp clean"
+  },
+  "keywords": [
+    "css",
+    "reset-css",
+    "reset-styles",
+    "css-framework",
+    "sass",
+    "scss",
+    "gulp"
+  ]
+}

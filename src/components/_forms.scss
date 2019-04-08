@@ -1,0 +1,99 @@
+label {
+  display: inline-block;
+  margin-bottom: ($form-group-margin / 2);
+}
+
+input:not([type="file"]),
+select,
+button,
+textarea {
+  font-size: inherit;
+  padding: $padding-form;
+  color: $form-text;
+  background: $background-alt;
+  border-radius: $border-radius;
+  &:focus {
+    box-shadow: 0 0 0 2px $focus;
+  }
+}
+
+input[type="file"] {
+  color: $form-text;
+}
+
+input,
+button,
+textarea {
+  @include fields-hover;
+  &:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+  }
+}
+
+button,
+[type="submit"],
+[type="button"] {
+  &:hover {
+    background: $button-hover;
+  }
+}
+
+::placeholder {
+  color: $form-placeholder;
+}
+
+select {
+  border: none;
+  &:not([multiple]) {
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
+  }
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  &:focus {
+    outline: auto 5px $focus;
+    box-shadow: none;
+  }
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+}
+
+input[type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+}
+
+input[type="range"] {
+  -webkit-appearance: slider-horizontal;
+  &:focus {
+    outline: auto 5px $focus;
+    box-shadow: none;
+  }
+}
+
+.form-group {
+  margin-bottom: $form-group-margin;
+}
+
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}

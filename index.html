@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Title</title>
+
+  <link rel="stylesheet" href="dist/main.css">
+
+  <style>
+    body {
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 15px;
+      padding-left: 15px;
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    .wh {
+      color: #fff;
+    }
+
+    .ye {
+      color: #d19a66;
+    }
+
+    .gr {
+      color: #a6de78;
+    }
+
+    .cm {
+      color: #66747b;
+    }
+  </style>
+</head>
+<body>
+
+<header class="heading-wrapper">
+  <h1>Mini CSS Framework</h1>
+
+  <hr>
+</header>
+
+<main>
+  <section id="headings">
+    <h2>Headings</h2>
+
+    <table>
+      <thead>
+      <tr>
+        <th>Heading</th>
+        <th>Example</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+        <td>
+          <code>&lt;h1&gt;&lt;/h1&gt;</code>
+        </td>
+        <td>
+          <p class="h1">Heading h1</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <code>&lt;h2&gt;&lt;/h2&gt;</code>
+        </td>
+        <td>
+          <p class="h2">Heading h2</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <code>&lt;h3&gt;&lt;/h3&gt;</code>
+        </td>
+        <td>
+          <p class="h3">Heading h3</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <code>&lt;h4&gt;&lt;/h4&gt;</code>
+        </td>
+        <td>
+          <p class="h4">Heading h4</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <code>&lt;h5&gt;&lt;/h5&gt;</code>
+        </td>
+        <td>
+          <p class="h5">Heading h5</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <code>&lt;h6&gt;&lt;/h6&gt;</code>
+        </td>
+        <td>
+          <p class="h6">Heading h6</p>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+
+    <pre><code><span>&lt;h1&gt;</span><span
+        class="wh">Heading h1</span><span>&lt;/h1&gt;</span><br><span>&lt;h2&gt;</span><span
+        class="wh">Heading h2</span><span>&lt;/h2&gt;</span><br><span>&lt;h3&gt;</span><span
+        class="wh">Heading h3</span><span>&lt;/h3&gt;</span><br><span>&lt;h4&gt;</span><span
+        class="wh">Heading h4</span><span>&lt;/h4&gt;</span><br><span>&lt;h5&gt;</span><span
+        class="wh">Heading h5</span><span>&lt;/h5&gt;</span><br><span>&lt;h6&gt;</span><span
+        class="wh">Heading h6</span><span>&lt;/h6&gt;</span><br><br><span
+        class="cm">&lt;!-- or --&gt;</span><br><br><span>&lt;p <span class="ye">class</span><span
+        class="gr">="h1"</span>&gt;</span><span class="wh">Heading h1</span><span>&lt;/p&gt;</span><br><span>&lt;p <span
+        class="ye">class</span><span class="gr">="h2"</span>&gt;</span><span class="wh">Heading h2</span><span>&lt;/p&gt;</span><br><span>&lt;p <span
+        class="ye">class</span><span class="gr">="h3"</span>&gt;</span><span class="wh">Heading h3</span><span>&lt;/p&gt;</span><br><span>&lt;p <span
+        class="ye">class</span><span class="gr">="h4"</span>&gt;</span><span class="wh">Heading h4</span><span>&lt;/p&gt;</span><br><span>&lt;p <span
+        class="ye">class</span><span class="gr">="h5"</span>&gt;</span><span class="wh">Heading h5</span><span>&lt;/p&gt;</span><br><span>&lt;p <span
+        class="ye">class</span><span class="gr">="h6"</span>&gt;</span><span class="wh">Heading h6</span><span>&lt;/p&gt;</span><br></code></pre>
+  </section>
+
+  <section id="paragraphs">
+    <h2>Paragraphs</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur
+      <mark> dipiscing elit.</mark>
+      Nunc eget.
+    </p>
+
+    <p>
+      <del>Lorem ipsum dolor sit amet, consectetur Nunc eget.</del>
+    </p>
+
+    <p>
+      <s>Lorem ipsum dolor sit amet, consectetur Nunc eget.</s>
+    </p>
+
+    <p>
+      <ins>Lorem ipsum dolor sit amet, consectetur Nunc eget.</ins>
+    </p>
+
+    <p>
+      <u>Lorem ipsum dolor sit amet, consectetur Nunc eget.</u>
+    </p>
+
+    <p>
+      <small>Lorem ipsum dolor sit amet, consectetur Nunc eget.</small>
+    </p>
+
+    <p>
+      <strong>Lorem ipsum dolor sit amet, consectetur Nunc eget.</strong>
+    </p>
+
+    <p>
+      <em>Lorem ipsum dolor sit amet, consectetur Nunc eget.</em>
+    </p>
+
+    <pre><code><span>&lt;p&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur </span><span>&lt;mark&gt;</span><span class="wh">adipiscing elit.</span><span>&lt;/mark&gt;</span><span
+        class="wh"> Nunc eget.</span><span>&lt;/p&gt;</span><br><span>&lt;p&gt;&lt;del&gt;</span><span class="wh">Lorem ipsum dolor sit amet, consectetur Nunc eget.</span><span>&lt;/del&gt;&lt;/p&gt;</span><br><span>&lt;p&gt;&lt;s&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur Nunc eget.</span><span>&lt;/s&gt;&lt;/p&gt;</span><br><span>&lt;p&gt;&lt;ins&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur Nunc eget.</span><span>&lt;/ins&gt;&lt;/p&gt;</span><br><span>&lt;p&gt;&lt;u&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur Nunc eget.</span><span>&lt;/u&gt;&lt;/p&gt;</span><br><span>&lt;p&gt;&lt;small&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur Nunc eget.</span><span>&lt;/small&gt;&lt;/p&gt;</span><br><span>&lt;p&gt;&lt;strong&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur Nunc eget.</span><span>&lt;/strong&gt;&lt;/p&gt;</span><br><span>&lt;p&gt;&lt;em&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur Nunc eget.</span><span>&lt;/em&gt;&lt;/p&gt;</span></code></pre>
+  </section>
+
+  <section id="lists">
+    <h2>Lists</h2>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Nullam tempus enim ac eleifend sollicitudin.</li>
+      <li>Aenean sed ex non quam tincidunt ullamcorper quis et metus.</li>
+    </ul>
+
+    <ol>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Nullam tempus enim ac eleifend sollicitudin.</li>
+      <li>Aenean sed ex non quam tincidunt ullamcorper quis et metus.</li>
+    </ol>
+
+    <pre><code><span>&lt;ul&gt;</span><br>  <span>&lt;li&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><span>&lt;/li&gt;</span><br>  <span>&lt;li&gt;</span><span
+        class="wh">Nullam tempus enim ac eleifend sollicitudin.</span><span>&lt;/li&gt;</span><br>  <span>&lt;li&gt;</span><span
+        class="wh">Aenean sed ex non quam tincidunt ullamcorper quis et metus.</span><span>&lt;/li&gt;</span><br><span>&lt;/ul&gt;</span><br><br><span>&lt;ol&gt;</span><br>  <span>&lt;li&gt;</span><span
+        class="wh">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><span>&lt;/li&gt;</span><br>  <span>&lt;li&gt;</span><span
+        class="wh">Nullam tempus enim ac eleifend sollicitudin.</span><span>&lt;/li&gt;</span><br>  <span>&lt;li&gt;</span><span
+        class="wh">Aenean sed ex non quam tincidunt ullamcorper quis et metus.</span><span>&lt;/li&gt;</span><br><span>&lt;/ol&gt;</span></code></pre>
+  </section>
+
+  <section id="link">
+    <h2>Link</h2>
+
+    <a href="#">Link</a>
+
+    <pre><code><span>&lt;a <span class="ye">href</span><span class="gr">="#"</span>&gt;</span><span
+        class="wh">Link</span><span>&lt;/a&gt;</span></code></pre>
+  </section>
+
+  <section id="forms">
+    <h2>Forms</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="email">Email:</label>
+
+        <input id="email" name="email" placeholder="mail@example.com" type="email">
+      </div>
+
+      <div class="form-group">
+        <label for="select">Select:</label>
+
+        <select id="select" name="select">
+          <option value="">Option 1</option>
+          <option value="">Option 2</option>
+          <option value="">Option 3</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="multiple-select">Multiple select:</label>
+
+        <select id="multiple-select" multiple name="multiple-select">
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+          <option value="">5</option>
+          <option value="">6</option>
+          <option value="">7</option>
+          <option value="">8</option>
+          <option value="">9</option>
+          <option value="">10</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="textarea">Textarea:</label>
+
+        <textarea name="textarea" id="textarea" rows="3"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="file">File input:</label>
+        <input type="file" id="file">
+      </div>
+
+      <div class="form-group">
+        <label for="read-only">Readonly input:</label>
+
+        <input id="read-only" placeholder="Readonly input" readonly type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="range">Range input:</label>
+        <input id="range" type="range">
+      </div>
+
+      <div class="form-group">
+        <input id="check1" type="checkbox" value="">
+
+        <label for="check1">Default checkbox</label>
+      </div>
+      <div class="form-group">
+        <input disabled id="check2" type="checkbox" value="">
+
+        <label for="check2">Disabled checkbox</label>
+      </div>
+
+      <div class="form-group">
+        <input id="radio1" type="radio" value="">
+
+        <label for="radio1">Default radio 1</label>
+      </div>
+
+      <div class="form-group">
+        <input id="radio2" type="radio" value="">
+
+        <label for="radio2">Default radio 2</label>
+      </div>
+
+      <div class="form-group">
+        <input disabled id="radio3" type="radio" value="">
+
+        <label for="radio3">Disabled radio</label>
+      </div>
+
+      <div class="form-group">
+      <button>Submit</button>
+      </div>
+    </form>
+
+  </section>
+
+  <section id="code">
+    <h2>Code</h2>
+
+    <pre><code>// Console message<br>console.log('Hello!')</code></pre>
+
+    <br>
+
+    <pre><code><span>&lt;pre&gt;</span><br>  <span>&lt;code&gt;</span><br>    <span class="wh">// Console message</span><br>    <span
+        class="wh">console.log('Hello!')</span><br>  <span>&lt;/code&gt;</span><br><span>&lt;/pre&gt;</span></code></pre>
+  </section>
+
+  <section id="media">
+    <h2>Media</h2>
+
+    <img src="https://via.placeholder.com/350x150" alt="placeholder image">
+  </section>
+
+  <section id="table">
+    <h2>Table</h2>
+
+    <table>
+      <thead>
+      <tr>
+        <th>Lorem</th>
+        <th>Ipsum</th>
+        <th>Dolor</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Lorem ipsum dolor</td>
+        <td>sit amet, consectetur</td>
+        <td>adipiscing elit.</td>
+      </tr>
+      <tr>
+        <td>Nullam tempus enim</td>
+        <td>ac eleifend</td>
+        <td>sollicitudin.</td>
+      </tr>
+      <tr>
+        <td>Aenean sed ex</td>
+        <td>non quam tincidunt</td>
+        <td>ullamcorper quis et metus.</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+
+</body>
+</html>

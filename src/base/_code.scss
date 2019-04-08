@@ -1,0 +1,12 @@
+code, kbd {
+  background: $code-bg;
+  color: $code;
+  padding: ($padding / 2);
+  border-radius: $code-border-radius;
+}
+
+pre > code {
+  padding: $padding;
+  display: block;
+  overflow-x: auto;
+}

@@ -1,0 +1,7 @@
+@mixin fields-hover() {
+  transition: color $animation-duration,
+  opacity $animation-duration,
+  background $animation-duration,
+  box-shadow $animation-duration,
+  outline $animation-duration;
+}
