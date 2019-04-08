@@ -35,10 +35,14 @@
     "clean": "gulp clean"
   },
   "keywords": [
-    "css",
+    "reset",
     "reset-css",
     "reset-styles",
     "css-framework",
+    "css",
+    "cssreset",
+    "css-reset",
+    "stylereset",
     "sass",
     "scss",
     "gulp"
