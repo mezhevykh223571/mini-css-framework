@@ -5,7 +5,7 @@
 SCSS
 
 ```scss
-@import '/path/to/node_modules/@mezhevykh/reset-styles/src/reset.scss';
+@import '/path/to/node_modules/@mezhevykh/mini-css-framework/src/main.scss';
 ```
 
 **Download**
