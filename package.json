@@ -1,6 +1,6 @@
 {
   "name": "@mezhevykh/mini-css-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "$ npm i @mezhevykh/mini-css-framework",
   "style": "dist/main.css",
   "main": "dist/main.css",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/mezhevykh223571/mini-css-framework/issues"
   },
-  "homepage": "https,://mezhevykh223571.github.io/mini-css-framework/",
+  "homepage": "http://https,://mezhevykh223571.github.io/mini-css-framework/",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
