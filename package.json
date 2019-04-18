@@ -1,6 +1,6 @@
 {
   "name": "@mezhevykh/mini-css-framework",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "$ npm i @mezhevykh/mini-css-framework",
   "style": "dist/main.css",
   "main": "dist/main.css",
